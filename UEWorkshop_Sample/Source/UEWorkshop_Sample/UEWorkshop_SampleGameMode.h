@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
-#include "UEWorkshop_SampleGameMode.generated.h"
+#include "UEWorkshop_SampleGameMode.generated.h" // This has to be the last #include
 
 UCLASS(minimalapi)
 class AUEWorkshop_SampleGameMode : public AGameModeBase
