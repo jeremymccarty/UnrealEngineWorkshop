@@ -15,12 +15,16 @@ public:
 	// Sets default values for this actor's properties
 	ASample_01();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	int32 SampleInt = 1;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float SampleFloat = 1.0f;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool SampleBool = true;
 
+	UFUNCTION(BlueprintCallable)
 	void BlueprintVisibleFunction(int32 s_int, float s_float, bool s_bool);
 
 protected:
