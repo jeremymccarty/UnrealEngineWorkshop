@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// All content © 2018 DigiPen (USA) Corporation, all rights reserved.
 
 #include "Sample_01.h"
 
@@ -19,7 +19,6 @@ void ASample_01::BlueprintVisibleFunction(int32 s_int, float s_float, bool s_boo
 void ASample_01::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame
